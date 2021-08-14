@@ -1,6 +1,6 @@
 {
-    "name": "flutter_starter",
-    "short_name": "flutter_starter",
+    "name": "SafeChat",
+    "short_name": "SafeChat",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

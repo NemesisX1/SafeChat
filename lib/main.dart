@@ -11,7 +11,7 @@ import 'routes.dart';
 globalInitializer() async {
   WidgetsFlutterBinding.ensureInitialized();
   setupLocator();
-  await Firebase.initializeApp();
+  //await Firebase.initializeApp();
   await Hive.initFlutter();
   Hive.registerAdapter(AppUserAdapter());
   await Hive.openBox<AppUser>("user");
@@ -27,7 +27,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'SafeChat',
       theme: appTheme,
       onGenerateRoute: (settings) => AppRouter.generateRoute(settings),
     );
