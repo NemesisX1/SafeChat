@@ -1,7 +1,6 @@
 # SafeChat
 
-A simple and secure chat app. It claims to be secure and powered by Auth0 authentifation and end-to-end encryption. It was developed for the Auth0 hackathon launched by Hashnode.
-
+A simple and secure chat app. It claims to be secure and powered by Auth0 authentifation and end-to-end encryption.
 > ## :sunglasses:  Author(s)
 
 **Junior Medehou** [![Twitter Follow](https://img.shields.io/twitter/follow/juniormedehou_?label=Follow&style=social)](https://twitter.com/juniormedehou_)
